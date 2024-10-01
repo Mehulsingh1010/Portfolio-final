@@ -4,7 +4,7 @@ export const exploreWorlds = [
     imgUrl: '/planet-01.png',
     title: 'Video Calling App',
     description: 'A platform to connect people through video calls. It offers features like instant meetings, scheduling meetings, to record and watch a meeting later and personal rooms. Check it out !',
-    customImgUrl: 'https://companieslogo.com/img/orig/ZM-b326e02f.png?t=1647979587',
+    customImgUrl: 'https://i.pinimg.com/736x/87/8a/63/878a6374742b647f5f0834520d115501.jpg',
     projectUrl: 'https://meetme-two.vercel.app',
   },
   {
