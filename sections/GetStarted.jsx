@@ -1,13 +1,12 @@
 'use client';
 
 import { motion } from 'framer-motion';
-
 import styles from '../styles';
 import { TitleText, TypingText } from '../components';
 import { staggerContainer, fadeIn, planetVariants } from '../utils/motion';
 
 const GetStarted = () => (
-  <section className={`${styles.paddings} relative z-10`}>
+  <section className={`${styles.paddings} relative z-10 h-screen flex items-center`}>
     <motion.div
       variants={staggerContainer}
       initial="hidden"
@@ -22,7 +21,7 @@ const GetStarted = () => (
         <img
           src="/get-started.png"
           alt="get-started"
-          className="w-[90%] h-[90%] object-contain"
+          className="w-[90%] h-auto max-h-[80vh] object-contain"
         />
       </motion.div>
       <motion.div
@@ -31,7 +30,7 @@ const GetStarted = () => (
       >
         <TypingText title="| My Background" />
         <TitleText title={<>Get to know my journey</>} />
-        <div className="mt-[31px] flex flex-col gap-[24px]">
+        <div className="mt-[31px] overflow-hidden flex flex-col gap-[24px] p-6 max-h-[80vh]">
           <div className="bg-gradient-to-r from-blue-500 to-indigo-500 p-4 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
             <h3 className="text-xl font-bold text-white">Education</h3>
             <p className="text-white">B.Tech in Computer Science</p>
@@ -50,6 +49,18 @@ const GetStarted = () => (
                 <strong>AIML:</strong> Started in 2024 - Present
               </li>
             </ul>
+          </div>
+          {/* Resume Download Section */}
+          <div className="bg-gradient-to-r from-purple-500 to-pink-500 p-4 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
+            <h3 className="text-xl font-bold text-white">Download My Resume</h3>
+            <p className="text-gray-200">Click the button below to download my resume.</p>
+            <a
+              href="/ResumeNew.pdf" // Update this path to your resume file
+              download
+              className="mt-4 inline-block bg-white text-purple-600 font-semibold py-2 px-4 rounded shadow hover:bg-gray-200 transition duration-300"
+            >
+              Download Resume
+            </a>
           </div>
         </div>
       </motion.div>
