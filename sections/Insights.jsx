@@ -75,7 +75,7 @@ const ContactForm = () => {
 
             <motion.button
               type="submit"
-              className="w-full py-3 px-6 rounded-lg bg-blue-600 hover:bg-blue-700 flex items-center justify-center space-x-2 transition duration-300"
+              className="w-full py-3 px-6 rounded-lg bg-[#3b97d8] hover:bg-[#6e68c1] flex items-center justify-center space-x-2 transition duration-300"
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
             >
