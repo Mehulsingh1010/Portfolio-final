@@ -10,6 +10,8 @@
     "export": "npm run build && next export -o _static"
   },
   "dependencies": {
+    "dotenv": "^16.4.5",
+    "emailjs-com": "^3.2.0",
     "eslint-config-next": "13.0.3",
     "framer-motion": "^7.6.7",
     "next": "13.0.3",

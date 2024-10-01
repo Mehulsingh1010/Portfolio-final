@@ -41,19 +41,23 @@ export const exploreWorlds = [
 
 export const socials = [
   {
-    name: 'twitter',
-    url: '/twitter.svg',
+    name: 'GitHub',
+    url: '/github.svg',
+    link: 'https://github.com/mehulsingh1010', // Replace with your Twitter link
   },
   {
     name: 'linkedin',
     url: '/linkedin.svg',
+    link: 'https://www.linkedin.com/in/mehul-singh-73154b251/', // Replace with your LinkedIn link
   },
   {
-    name: 'instagram',
-    url: '/instagram.svg',
+    name: 'leetcode',
+    url: '/leetcode.png',
+    link: 'https://instagram.com/yourprofile', // Replace with your Instagram link
   },
   {
-    name: 'facebook',
-    url: '/facebook.svg',
+    name: 'Mail',
+    url: '/mail1.png',
+    link: 'https://mail.google.com/mehulsingh076@gmail.com', // Replace with your Facebook link
   },
 ];
